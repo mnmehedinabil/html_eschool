@@ -1,0 +1,366 @@
+/*Global CSS Start*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover{
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/*Global CSS End*/
+
+.header-section{
+	width: 100%;
+	background: #F0FFF0;
+	padding: 20px 0px;
+}
+
+.header-section .navbar{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.header-section .navbar .logo{
+	flex-basis: 15%;
+
+}
+
+.header-section .navbar .logo img{
+	width: 100%;
+    height: auto;
+}
+
+.header-section .navbar .nav{
+	flex-basis: 70%;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+.header-section .navbar .nav ul{
+	margin-top: 1px;
+    padding: 0;
+}
+
+.header-section .navbar .nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.header-section .navbar .btn{
+	flex-basis: 15%;
+
+}
+
+.header-section .navbar .btn a{
+	background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    color: white;
+}
+
+.banner{
+	width: 100%;
+	background: #F0FFF0;
+}
+
+.banner .banner-inner{
+	display: flex;
+
+}
+
+.banner .banner-inner .content{
+	flex-basis: 50%;
+	padding-top: 60px;
+	padding-bottom: 70px;
+
+}
+.banner .banner-inner .content span{
+	color: #FD511A;
+
+}
+.banner .banner-inner .content h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+
+}
+
+.banner .banner-inner .content h1 span{
+	color: #21B573;
+
+}
+
+.banner .banner-inner .content p{
+	line-height: 36px;
+	margin-top: 20px;
+
+}
+.banner .banner-inner .content .banner-btn{
+	margin-top: 45px;
+}
+
+.banner .banner-inner .content .banner-btn a{
+	background: #21B573;
+    padding: 12px 28px;
+    border: 1px solid #000;
+    border-radius: 33px;
+    color: white;
+}
+
+.banner .banner-inner .img-part{
+	flex-basis: 50%;
+
+}
+
+.banner .banner-inner .img-part img{
+	width: 100%;
+	height: auto;
+}
+
+.feature{
+	width: 90%;
+	padding: 50px;
+
+}
+.feature .feature-inner{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+
+}
+.feature .feature-inner .f-box{
+	border-radius: 10px;
+	padding: 50px;
+	transition: 0.5s;
+	
+
+}
+.feature .feature-inner .f-box:hover{
+	
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+	transition: 0.5s;
+
+}
+.feature .feature-inner .f-box img{
+	width: 66px;
+	height: 85px;
+}
+
+/*courses section css code start*/
+
+.courses{
+	width: 100%;
+	padding: 50px 0px;
+}
+.title{
+	text-align: center;
+    color: #413960;
+    margin-top: -85px;
+    padding: 34px;
+
+}
+.title h2{
+	font-weight: 700;
+	font-size: 36px;
+
+}
+.courses-inner{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.c-card{
+	box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, .10);
+	border-radius: 18px;
+	padding: 25px;
+	margin: 0px 10px;
+
+}
+
+.c-card img{
+	width: 300px;
+	height: 250px;
+}
+
+.c-footer{
+	display: flex;
+	margin-top: 24px;
+
+}
+.courses .courses-inner .c-card .c-btn{
+	margin-top: 20px;
+}
+.courses .courses-inner .c-card .c-btn a{
+	background: #21B573;
+	border: 1px solid #21B573;
+	border-radius: 33px;
+	color: white;
+	padding: 4px 15px;
+
+}
+
+.c-footer .left{
+	
+}
+.c-footer .left img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+.c-footer span{
+	
+}
+.c-footer .right{
+	
+}
+.c-footer .right img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+.c-footer .right span{
+	
+}
+.testi h1{
+	text-align: center;
+	color: #000000;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	margin: 20px;
+
+}
+.testi-section{
+	width: 100%;
+	padding: 50px 0px;
+}
+.testi-section .container{
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.testi-section .container .part-img{
+	flex-basis: 35%;
+}
+.testi-section .container .part-img img{
+	width: 120px;
+	height: 120px;
+	margin-top: -7px;
+	margin-left: 60%;
+}
+.testi-section .container .t-card{
+	flex-basis: 65%;
+}
+.testi-section .container .t-card p{
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
+}
+.last-section{
+	background: #282531;
+}
+.last-section .container{
+	display: flex;
+	color: #FFFFFF;
+	padding: 50px;
+}
+.last-section .container .paragraph{
+	flex-basis: 40%;
+}
+.last-section .container .paragraph p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+.last-section .container .ul1{
+	flex-basis: 20%;
+}
+.last-section .container .ul1 ul{
+
+}
+.last-section .container .ul1 ul h5{
+	font-weight: 700;
+	line-height: 30px;
+	font-size: 16px;
+}
+.last-section .container .ul1 ul li{
+	text-transform: capitalize;
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+.last-section .container .ul2{
+	flex-basis: 20%;
+}
+.last-section .container .ul2 ul{
+
+}
+.last-section .container .ul2 ul h5{
+	font-weight: 700;
+	line-height: 30px;
+	font-size: 16px;
+}
+.last-section .container .ul2 ul li{
+	text-transform: capitalize;
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+.last-section .container .ul3{
+	flex-basis: 20%;
+}
+.last-section .container .ul3 ul{
+
+}
+.last-section .container .ul3 ul h5{
+	font-weight: 700;
+	line-height: 30px;
+	font-size: 16px;
+}
+.last-section .container .ul3 ul li{
+	text-transform: capitalize;
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+}
+.copyright{
+	background: #282531;
+	padding: 20px;
+}
+.copyright p{
+	color: #CDCDCD;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10%;
+}
